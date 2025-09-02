@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f6f8; }
+.app header { background: #0b5fff; color: white; padding: 12px 20px; display:flex; align-items:center; justify-content:space-between; }
+.app header h1 { margin: 0; font-size: 18px; }
+.app header nav a { color: white; margin-left: 12px; text-decoration: none; }
+main { padding: 20px; max-width: 900px; margin: 0 auto; background: white; min-height: calc(100vh - 72px); }
+.card { border: 1px solid #e1e6ef; padding: 12px; margin-bottom: 12px; border-radius: 6px; }
+form input, form select, form textarea { display:block; width:100%; padding:8px; margin:8px 0; box-sizing:border-box; }
+button { padding:8px 12px; cursor:pointer; }
+.controls { display:flex; gap:8px; align-items:center; margin-bottom:12px; }
+.address-item { padding:8px; border:1px dashed #d0d7e5; margin-bottom:6px; border-radius:4px; }
+.muted { color:#6b7280; }
+a.link { color:#0b5fff; text-decoration:none; }
